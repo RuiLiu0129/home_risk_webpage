@@ -22,6 +22,9 @@ body {
     font-size: 40px;
 }
 
+
+
+
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden;
@@ -81,10 +84,24 @@ body {
     padding: 20px;
 }
 
+/* score */
+.score {
+    text-align: center;
+    width: 100%;
+    padding-top: auto;
+    color: red;
+    backgroud-color: white;
+}
+
+/* Increase the font size of the heading */
+.socre h1 {
+    font-size: 100px;
+}
+
 /* Footer */
 .footer {
     padding: 20px;
-    text-align: center;
+
     background: #ddd;
 }
 

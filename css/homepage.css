@@ -66,6 +66,13 @@ li.nav-links a:hover {
     text-align: center;
 }
 
+.form-search{
+    text-align: center;
+    width: 450px;
+    line-height: 32px;
+    padding: 0 8px;
+}
+
 #form-search {
     width: 450px;
     line-height: 32px;
@@ -74,6 +81,7 @@ li.nav-links a:hover {
 
 .form #form-search {
     padding: 0 8px;
+    margin-bottom: 300px;
 }
 
 /*#form-search:hover {
@@ -85,6 +93,7 @@ li.nav-links a:hover {
     text-align: center;
     padding-top: 30px;
     margin-bottom: 300px;
+    font-size: large;
 }
 
 /* FOOTER */

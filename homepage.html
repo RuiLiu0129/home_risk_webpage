@@ -25,14 +25,15 @@
     <form>
         <label for="form-search"></label>
         <input type="text" id="form-search" placeholder="Please enter customer ID">
+        <button onclick="search()" style="height: 32px;">Q</button>
     </form>
 </div>
 
-<!-- BUTTONS -->
-<div class= "buttons">
-    <input type="submit" value="Search" id="google_search",onclick="openreport()">
-    <input type="submit" value="Other source" id="google_search">
-</div>
+<!--&lt;!&ndash; BUTTONS &ndash;&gt;-->
+<!--<div class= "buttons">-->
+<!--    <input type="submit" value="Demo" id="google_search">-->
+<!--    <input type="submit" value="Statistics" id="google_search">-->
+<!--</div>-->
 
 
 <!-- FOOTER -->
@@ -44,4 +45,14 @@
         <li><a href="#">Privacy</a></li>
     </ul>
 </footer>
+
+<script>
+    function search(e){
+        let value = document.getElementById('form-search').value;
+        sessionStorage.setItem('id',value);
+        window.open("./report.html","_blank");
+    }
+</script>
+
+
 </body>

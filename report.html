@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 
+<head>
+    <title>report</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/report.css" rel="stylesheet">
+
 </head>
-<title>report</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="./css/report.css" rel="stylesheet">
+
+
 <body>
+
+
+<script>
+    var id = sessionStorage.getItem('id');
+    document.getElementById('showId').innerText = id;
+
+
+
+
+
+</script>
+
+
+<span id="showId"></span>
+
+
 
 
 <div class="header">
@@ -16,16 +36,18 @@
 <div class="row">
     <div class="side">
         <h2>Prediction Score</h2>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-        <h3>More Text</h3>
+        <div class="score" style="height:80px;">
+            <h1> 0.95 </h1>
+        </div>
+
+        <h2>Personal Information</h2>
         <p>Lorem ipsum dolor sit ame.</p>
         <div class="fakeimg" style="height:60px;">Image</div><br>
         <div class="fakeimg" style="height:60px;">Image</div><br>
         <div class="fakeimg" style="height:60px;">Image</div>
     </div>
     <div class="main">
-        <h2>TITLE HEADING</h2>
+        <h2>Credit Card Balance Plot</h2>
         <h5>Title description, Dec 7, 2017</h5>
         <div class="fakeimg" style="height:200px;">Image</div>
         <p>Some text..</p>
@@ -44,4 +66,6 @@
 </div>
 
 </body>
-</html>
+
+
+
